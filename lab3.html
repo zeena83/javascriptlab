@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="lab3.css">
+<style type="text/css"></style>
+<title>LAB3</title>
+<script src="lab3.js"></script>
+</head>
+	
+	
+	<body>
+		<div class="hemsida">
+			
+			
+			<div class="header1"><p class="p1">HTML&CSS OCH JAVASCRIPT</p></div>
+			<div class="header2"><p class="p2">BORJA RITA</p></div> <br> <br>
+			<div id="statustext">statusbar</div>
+			
+			<textirea id="status" value="0"   placeholder="point list"></textirea>
+		    <div class="canvas">
+		         <canvas id="canvas" width="800" height="500">Text som visas om webbläsaren inte stöder canvas-elementet</canvas>
+			</div>
+		    
+			<div  class="meny">
+	
+				               <button class="dd" type="button" id="menybutton"><a href="#">Meny</a></button>	
+	
+	                           <ul id="menylista">
+		                       <li><button class="dd" id="rensa"><a href="#">Rensa canvas</a></button></li>
+		                       <li><button class="dd" id="cir"><a href="#">Rit cirkel</a></button></li>
+		                       <li><button class="dd" id="rek"><a href="#">Rita rektangel</a></button></li>
+		                       <li><button class="dd"id="tri"><a href="#">Rita triangel</a></button></li>
+		                       <li><button class="dd"id="json"><a href="#">Exportera till JSON</a></button></li>
+		                       <li><button class="dd" id="avbryta"><a href="#">avbryta</a></button></li>
+		                       </ul>
+			
+	        </div>
+		
+		
+		    <div  class="farg">
+		
+		                          <form>
+			
+		                                 Färge: <select id="sel"  onchange="select();">
+			 
+			                                      <option value="#000000">black</option>
+                                                  <option value="#00FF00">green</option>
+                                                  <option value="#0000FF">blå</option>
+			                                      <option value="#808080">gray</option>
+			                                      <option value="#FF0000">red</option>
+			                                     </select>
+		                                  
+									         <input class="dd" type="color" id="colorPicker" value="#000006">
+			<br><br>
+			
+			 
+						      Nyfärge: <input class="dd" type="text"  placeholder="skriva in  ny färge" id ="skriva" />
+			
+			
+									  <span> <button class="dd" type="button" id='color'> OK </button> </span>
+			<br><br>
+			
+                                    </form>
+		
+			</div>
+		
+		
+		    <div id="exjson">Exportera till JSON</div>
+			
+			<div class="header3"><p class="p1">Zeena Bahram</p></div>
+		
+		
+		
+		</div>
+		
+	</body>
+</html>
